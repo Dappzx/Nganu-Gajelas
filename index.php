@@ -2,9 +2,8 @@
 
 ////////////////=============[Made with ❤️ by Dappzx]===============////////////////
 
-///https://api.telegram.org/bot<token>/setwebhook?url=<url>
-
-$botToken = "..."; //2040263997:AAHHfj4WMakXGYb3kHK7n7d_IRLJ3AUvmSo
+///https://api.telegram.org/bot2040263997:AAHHfj4WMakXGYb3kHK7n7d_IRLJ3AUvmSo/setWebhook?url=http://47.254.241.64/bot/
+$botToken = "2040263997:AAHHfj4WMakXGYb3kHK7n7d_IRLJ3AUvmSo"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
